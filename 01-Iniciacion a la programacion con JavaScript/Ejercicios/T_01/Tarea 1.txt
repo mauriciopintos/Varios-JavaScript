@@ -1,0 +1,5 @@
+Tarea: Crea un documento html y enlazalo con un archivo javascript
+
+Crea un documento con html, enlazalo a un archivo javascript. Al abrir
+el documento html en el navegador debera mostrar un mensaje por consola,
+como el "Hola, Mundo" de iniciacion.

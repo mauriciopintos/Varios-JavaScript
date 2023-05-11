@@ -1,0 +1,15 @@
+EXTENSIONES
+- ES6 code snippets
+- Prettier
+- Bracket Pair Colorization Toggler
+- indent-rainbow
+- Quokka.js
+- Live Server
+- Live Server Preview
+
+LIBRERIAS
+- JQuery: https://jquery.com/download/
+	npm install jquery
+
+- JQuery CDN
+	desde el <header> del html: <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>

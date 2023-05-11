@@ -1,0 +1,18 @@
+Tarea: Operaciones con Strings
+
+En el siguiente enlace encontraras el enunciado del ejercicio -> 
+https://aprendehtml5facil.blogspot.com/2022/08/javascript-ejercicios-con-strings.html
+Si hay algo que no conoces aun, busca la informacion en internet, esto te ayudara. 
+Una vez intentado, mira el video con las soluciones.
+
+Crea un script segun las siguientes indicaciones:
+
+1. Crea una variable con tu nombre
+2. Otra con tu apellido
+3. Una de nombre completo, donde se unan las variables anteriores con un espacio entre medio.
+4. Cambiar a mayusculas la variable nombre completo.
+5. Cambiar a minusculas la variable anterior.
+6. Obtener la ultima letra del nombre.
+7. Obtener la primera letra del apellido.
+8. Crear una frase con espacios al principio y final, guardarla en una variable y quitarle los espacios.
+9. Indicar si una palabra concreta esta dentro de la frase anterior y devolver su posicion.

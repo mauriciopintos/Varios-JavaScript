@@ -1,0 +1,4 @@
+Tarea: Crea elementos nuevos de lista al documento web al pulsar boton
+
+Crea un documento html con una lista desordenada y un boton, desde
+javascript con jquery agrega elementos nuevos a la lista.

@@ -1,0 +1,4 @@
+Tarea: Array, suma de valores
+
+Crea un array numerico y muestra la suma por consola. En la solucion te mostrare
+un par de formas para obtener el mismo resultado.

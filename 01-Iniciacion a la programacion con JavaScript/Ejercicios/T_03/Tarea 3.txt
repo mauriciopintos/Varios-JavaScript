@@ -1,0 +1,4 @@
+Tarea: Calcula y muestra resultados.
+Crea un documento HTML con campo para la base imponible, iva y total, junto con un boton
+para el calculo. Al pulsar el boton que ejecute una funcion javascript para los calculos
+y los muestre en los campos correspondientes.

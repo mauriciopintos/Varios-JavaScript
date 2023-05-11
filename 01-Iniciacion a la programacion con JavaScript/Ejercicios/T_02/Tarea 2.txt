@@ -1,0 +1,5 @@
+Tarea: Manipula elementos del documento HTML
+
+Crea un documento HTML con 1 titulo y 3 parrafos (uno con una clase, otro con identificador (id)).
+Desde el documento javascript cambia el texto de los 4 elementos. Crea tambien un documento CSS con
+clases para cambiar colores y manipula con javascript para cambiar los colores originales del HTML.
