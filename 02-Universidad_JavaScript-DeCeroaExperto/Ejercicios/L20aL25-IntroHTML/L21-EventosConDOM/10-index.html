@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delegar eventos con JavaScript</title>
+</head>
+<body>
+    <h1 id="titulo">Delegar eventos en JavaScript</h1>
+    <br/>
+    <form id="forma">
+        Nombre: <input type="text" id="nombre"/>
+        <br><br>
+        Apellido: <input type="text" id="apellido"/>
+    </form>
+    <script>
+        /* Aplicar el mismo estilo a todos los elementos de un formulario
+        mediante funciones flecha */
+        const forma = document.getElementById('forma');
+        forma.addEventListener('focus', (evento) =>{
+            evento.target.style.background = 'pink';
+        }, true); /* Con el valor TRUE estamos indicando que el formato se aplica
+                    a los elementos internos del objeto seleccionado, en este caso
+                    todos los inputs del formulario */
+        forma.addEventListener('blur', (evento) => {
+            evento.target.style.background = ''; // '' para volver al color default
+        }, true);
+    </script>
+</body>
+</html>

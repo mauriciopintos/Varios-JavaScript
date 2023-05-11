@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de Eventos DOM con JavaScript</title>
+</head>
+<body>
+    <!-- Puedo escribir directamente codigo JS en la declaracion del la llamada onclick
+    Esto no es una buena practica, se recomienda manejar el codigo JS por fuera de esta
+    llamada invocando a una funcion JS en la misma-->
+    <!--<h1 onclick="this.innerHTML='Nuevo Titulo'">Manejo de Eventos DOM y JavaScript</h1>-->
+    <h1 onclick="cambiarTexto(this)">Manejo de Eventos DOM y JavaScript</h1>
+    <script>
+        function cambiarTexto(objeto){
+            console.log(objeto);
+            objeto.innerHTML='Nuevo Titulo desde JS';
+        }
+
+    </script>
+</body>
+</html>

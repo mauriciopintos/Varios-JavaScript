@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejar evento ONLOAD desde JavaScript</title>
+</head>
+<body onload="entrar()">
+    <h1 id="titulo">Manejo de Evento onload DOM y JavaScript</h1>
+    <br/>
+    <div id="mostrar"></div>
+    <script>
+        function entrar(){
+            alert('Entrando a la pagina web');
+            let texto = '';
+            if(navigator.cookieEnabled){
+                texto = 'Cookies estan habilitadas';
+            } else {
+                texto = 'Cookies NO estan habilitadas';
+            }
+            document.getElementById('mostrar').innerHTML = texto;
+        }
+    </script>
+</body>
+</html>

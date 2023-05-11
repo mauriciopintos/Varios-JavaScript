@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo DOM con GetElementById</title>
+</head>
+<body>
+    <h1 id="titulo">Ejemplo DOM con JavaScript</h1>
+    <p id="parrafo1">Saludos!</p>
+    
+    <script>
+    // En ambos casos se puede utilizar Template String: `${variable}`
+        // Forma 1 de acceder a la propiedad innerHTML
+        /* GetElementById nos permite elegir por id de cada elemento*/
+        let titulo = document.getElementById('titulo').innerHTML;
+        console.log(titulo);
+
+        titulo = document.getElementById('titulo');
+        titulo.innerHTML = 'Nuevo titulo desde JavaScript';
+        console.log(titulo.innerHTML);
+
+        // Forma 2 de acceder a la propiedad innerHTML
+        let parrafo = document.getElementById('parrafo1');
+        console.log(`Primer Parrafo: ${parrafo.innerHTML}`);
+        parrafo.innerHTML = 'Nuevo valor del parrafo';
+        console.log(`Primer Parrafo: ${parrafo.innerHTML}`);
+        console.log('Saludo desde JavaScript');        
+    </script>
+    
+</body>
+</html>

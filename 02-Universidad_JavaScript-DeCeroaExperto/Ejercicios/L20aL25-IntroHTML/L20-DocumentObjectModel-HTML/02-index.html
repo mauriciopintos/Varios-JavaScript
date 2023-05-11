@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo DOM con GetElementByTagName</title>
+</head>
+<body>
+    <h1 id="titulo">Ejemplo DOM con JavaScript</h1>
+    <p id="parrafo1">Saludos!</p>
+    <p id="parrafo2">Parrafo 2</p>
+    
+    <script>
+        /* GetElementByTagName nos permite elegir por la etiqueta html de cada elemento*/
+        let parrafos = document.getElementsByTagName('p');
+        console.log(`Nro. de parrafos: ${parrafos.length}`);
+        for(let i=0; i<parrafos.length;i++){
+            console.log(`i:${i} - ${parrafos[i].innerHTML}`);
+        }
+    </script>
+    
+</body>
+</html>
