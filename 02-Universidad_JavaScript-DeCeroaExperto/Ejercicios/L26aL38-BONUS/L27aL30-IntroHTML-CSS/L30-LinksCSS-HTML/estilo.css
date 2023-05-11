@@ -1,0 +1,51 @@
+*{
+    /* font-size responsivo */
+    font-size: calc(1em + 1wm);
+    /* font: 1em sans-serif; */
+    /* font-weight: 100%; */
+}
+h1, h3{
+    color: orangered;
+}
+
+/*Cuando el link no fue visitado*/
+a:link{
+    color: #fb8500;
+    text-decoration: none;
+}
+
+/*Cuando el link ya fue visitado*/
+a:visited{
+    color: #219ebc;
+    text-decoration: none;
+}
+
+/*Cuando nos ponemos sobre el link*/
+a:hover{
+    color: #8ecae6;
+    text-decoration: underline;
+}
+
+/*Cuando camos click sobre el link*/
+a:active{
+    color: #023047;
+    text-decoration: underline;
+}
+
+/*Estilo imagen*/
+img{
+    width: 10%;
+}
+
+/*Estilo link clase boton*/
+a:link.btn, a:visited.btn{
+    background-color: #b5179e;
+    color: white;
+    padding: 3% 7%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover.btn, a:active.btn{
+    background-color: #f72585;
+}

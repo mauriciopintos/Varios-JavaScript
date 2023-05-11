@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet"> -->
+    
+    <title>Elementos de tipo Select y Text Area Formularios en HTML</title>
+</head>
+<body>
+    <h1>Elementos de tipo Select y Text Area Formularios en HTML</h1>
+    <form">
+        <!-- Seleccion individual -->
+        <label for="autos">Marca de auto favotita</label>
+        <select name="autos" id="auto">
+            <option value="ferrari">Ferrari</option>
+            <option value="bmw">BMW</option>
+            <option value="mercedes">Mercedes-Benz</option>
+            <option value="ford" selected="true">Ford</option>
+            <option value="chevrolet">Chebrolet</option>
+        </select><br><br>
+
+        <!-- Seleccion multiple -->
+        <label for="autos">Marcas de autos favotitas</label><br>
+        <select name="autos" id="auto" multiple="true">
+            <option value="ferrari">Ferrari</option>
+            <option value="bmw">BMW</option>
+            <option value="mercedes">Mercedes-Benz</option>
+            <option value="ford" selected="true">Ford</option>
+            <option value="chevrolet">Chebrolet</option>
+        </select><br>
+
+        <label for="comentario">Comentarios</label><br>
+        <textarea name="comentario" id="comentario" cols="30" rows="2">Agregar aqui un comentario</textarea>
+    </form>
+
+</body>
+</html>

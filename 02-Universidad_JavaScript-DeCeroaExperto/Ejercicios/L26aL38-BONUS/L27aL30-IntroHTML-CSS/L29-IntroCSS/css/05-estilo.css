@@ -1,0 +1,16 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    color: blue;
+}
+
+p{
+    color: white;
+    background-color: crimson;
+    padding: 20px;
+    border: 15px solid powderblue;
+    margin: 50px;
+    text-align: justify;
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    color: #3f37c9;
+    font-size: 250%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px;
+}
+.sub-titulo{
+    color: burlywood;
+    background-color: blue;
+}
+
+h1{
+    font-style: oblique;
+    color: #f72585;
+    text-align: center;
+    font-size: large;
+}
+
+h2{
+    color: #3f37c9;
+}
+
+.tarjeta{
+    border: 10px solid #560bad;
+    background-color: #f1faee;
+    text-align: center;
+    margin: 10px 115px;
+}
+
+div p{
+    color: #ff7f50;
+    font-size: medium;
+}

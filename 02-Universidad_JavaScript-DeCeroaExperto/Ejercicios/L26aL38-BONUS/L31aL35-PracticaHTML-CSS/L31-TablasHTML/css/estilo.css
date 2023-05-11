@@ -1,0 +1,38 @@
+/*Estilo para toda la tabla*/
+table{
+    width: 100%;
+}
+
+/*Estilo para toda la tabla, encabezado de columna y las filas*/
+table, th, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    /* border-spacing: 2.5px; */
+    padding: 5px;
+}
+
+/*Estilo para el encabezado de tabla*/
+caption{
+    color: #e63946;
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+
+/*Estilo para el encabezado de las columnas*/
+th{
+    color: #f1faee;
+    background-color: #1d3557;
+}
+
+/* Marcar filas pares(even) e impares(odd)*/
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+tr:nth-child(odd){
+    background-color: #a8dadc;
+}
+
+td{
+    text-align: center;
+}

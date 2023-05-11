@@ -1,0 +1,28 @@
+/*Quitamos el caracter ordinal de cada elemento de la lista*/
+ol{
+    list-style: none;
+    /*Aqui reseteamos la variable contador utilizada en la funcion counter*/
+    counter-reset: contador;
+}
+ol li{
+    /* Aqui indicamos que la variable de contador se debe
+        incrementar, SOLO EN LOS ELEMENTOS DE LA LISTA*/
+    counter-increment: contador;
+}
+
+/*Agregamos un contenido antes(before) de cada elemento de la lista*/
+ol li::before{
+    /*
+    - content: 'Curso ': nos permite agregar un string
+        antes de cada elemento de la lista
+    - counter(contador): es una funcion que nos permite
+        agregar un contador para utilizarlo como identificador
+    */
+    content: 'Curso 'counter(contador)') ';
+    color: #ff6f00;
+}
+
+/*Agregamos un contenido luego(after) de cada elemento de la lista*/
+ol li::after{
+    content: '.-';
+}

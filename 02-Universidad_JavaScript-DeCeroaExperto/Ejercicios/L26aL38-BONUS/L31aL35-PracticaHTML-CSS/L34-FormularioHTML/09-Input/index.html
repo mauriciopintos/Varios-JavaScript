@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet"> -->
+    
+    <title>Atributos del tag input en HTML</title>
+</head>
+<body>
+    <h1>Atributos del tag input en HTML</h1>
+    <form>
+        <label for="idPersona">id:</label>
+        <!-- Atributos del tag input:
+            type: En la mayoria de los casos es el tipo de dato del campo,
+                pero tambien puede ser un input oculto (hidden) que se utiliza
+                para enviar informacion al servidor, en este caso se acompaña
+                de las propiedades que refieren al sistema que procesará la
+                informacion enviada por este.
+            readonly: Debe definirse booleano para indicar si el campo permite
+                o no el ingreso de datos. En caso de readonly="true" el valor
+                se muestra pero no puede ser alterado desde el formulario.
+            disable: Es complementario de readonly, ya que a demas de no 
+                permitir alterar el contenido del campo, tambien lo opaca
+                mostrandolo como deshabilitado. Sin embargo, en este caso
+                no se envia el valor al servidor.
+            name: Describe el nombre del campo para ser referenciado desde el backend.
+            id: Cumple el mismo rol que todos los id html.
+            value: Describe el valor predeterminado del campo.
+            placeholder: Describe lo que se debe ingresar en el campo, al hacer click desaparece.
+        -->
+        <input type="text" id="idPersona" name="idPersona" readonly="true" value="100"  disabled="true"/><br><br>
+        <input type="hidden" id="sistema" name="sistema" value="SAP">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresar nombre" required="true"/><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingresar apellido" required="true"/><br><br>
+
+        <input type="submit" value="Enviar"/>
+        <input type="submit" value="Enviar sin validar" formnovalidate/><br><br>
+        <!-- El type reset indica limpiar todos los campos del formulario -->
+        <input type="reset" value="Limpiar campos"/>
+    </form>
+</body>
+</html>

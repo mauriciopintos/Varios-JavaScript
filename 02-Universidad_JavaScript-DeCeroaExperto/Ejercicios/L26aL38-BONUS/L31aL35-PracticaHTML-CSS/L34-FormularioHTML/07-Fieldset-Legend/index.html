@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet"> -->
+    
+    <title>Fieldset y Legend en Formularios en HTML</title>
+</head>
+<body>
+    <h1>Fieldset y Legend en Formularios en HTML</h1><hr>
+    <p>
+        <strong>Fieldset:</strong> es el enmarcado del formulario. <br>
+        <strong>Legend:</strong> es el titulo o rotulo del fieldset.
+    </p>
+    <form>
+        <fieldset>
+            <legend>Datos personales (con legend)</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"
+            placeholder="Ingresar nombre" required="true"/><br><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido"
+            placeholder="Ingresar apellido" required="true"/><br><br>
+    
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required="true"/><br><br>
+    
+            <input type="submit" value="Enviar"/>
+            <input type="submit" value="Enviar sin validar" formnovalidate/>
+        </fieldset>
+    </form>
+</body>
+</html>

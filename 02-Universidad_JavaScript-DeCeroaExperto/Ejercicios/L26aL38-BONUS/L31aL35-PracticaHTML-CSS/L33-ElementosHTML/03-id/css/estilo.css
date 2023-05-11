@@ -1,0 +1,19 @@
+#titulo_principal{
+    /* Ajuste responsivo de texto*/
+    font-size: calc(1.5em + 2.95vw);
+    color:blue;
+    text-align: center;
+    margin: 20px;
+}
+#primer_parrafo{
+    /* Ajuste responsivo de texto*/
+    font-size: calc(.5em + 1.1vw);
+    color: tomato;
+    text-align: justify;
+    text-decoration: underline;
+    margin: 10%;
+    padding: 1%;
+    width: 80%;
+    height: auto;
+    border: .5em solid sandybrown;
+}

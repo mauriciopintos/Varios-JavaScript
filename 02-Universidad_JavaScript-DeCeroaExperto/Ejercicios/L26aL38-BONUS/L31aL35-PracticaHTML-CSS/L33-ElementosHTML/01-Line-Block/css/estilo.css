@@ -1,0 +1,33 @@
+span.c1{
+    color: #e63946;
+    border: 1px solid black;
+}
+
+span.c2{
+    color: #457b9d;
+    font-weight: bold;
+}
+
+h1{
+   color: #f72585;
+    text-align: center;
+}
+
+h2{
+    color: #3f37c9;
+}
+
+p{
+    color: #457b9d;
+    font-size: large;
+}
+
+div{
+    border: 10px solid #560bad;
+    background-color: #f1faee;
+    text-align: center;
+}
+div p{
+    color: #ff7f50;
+    font-size: medium;
+}

@@ -1,0 +1,41 @@
+/*Estilo para todos los titulos h1 y h2*/
+h1, h2{
+    color: #1d3557;
+}
+
+/*Estilo para todas las listas NO ordenadas*/
+ul{
+    list-style-type: none;
+    background-color: #457b9d;
+    /* overflow: hidden; nos permite separar
+    los elementos de la lista del resto de
+    los elementos de la pagina*/
+    overflow: hidden;
+
+    /* overflow: scroll; nos permite agregar
+    las barras de desplazamiento a un bloque
+    de elementos de la pagina*/
+    /* overflow: scroll; */
+    margin: 0;
+    padding: 0;
+}
+
+/*Flotar cada elemento de la lista hacia la izquierda
+ para que queden horizontales en formato de menu*/
+li{
+   float: left; 
+}
+
+/*Estilo para los links dentro de la lista/menu*/
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+/* Estilo al pararse sobre el link*/
+li a:hover{
+    background-color: #1d3557;
+}

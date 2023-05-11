@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet"> -->
+    
+    <title>Verbos GEt y POST en Formularios en HTML</title>
+</head>
+<body>
+    <h1>Verbos GET y POST en Formularios en HTML</h1>
+    <!-- Con method podemos determinar el tipo de verbo.
+        De forma predeterminada utiliza el verbo GET. 
+    Metodo GET: El contenido a enviar se visualiza en el QueryString de la URL
+    Metodo POST: No se visualiza en QueryString el contenido -->
+    <form method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"
+        placeholder="Ingresar nombre" required="true"/><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"
+        placeholder="Ingresar apellido" required="true"/><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required="true"/><br><br>
+
+        <input type="submit" value="Enviar"/>
+        <input type="submit" value="Enviar sin validar" formnovalidate/>
+    </form>
+</body>
+</html>
